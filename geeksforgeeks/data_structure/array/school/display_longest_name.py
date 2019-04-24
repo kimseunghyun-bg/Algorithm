@@ -38,10 +38,7 @@ def display_longest_name(arr):
 if __name__ == '__main__':
     test_cases = int(input())
     for i in range(test_cases):
-        # array_length = input()
         arr = []
-        # arr.append("ab")
-        # print(arr)
         for i in range(int(input())):
             arr.append(str(input()))
         name = (lambda x: display_longest_name(x))(arr)
